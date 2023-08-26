@@ -4,7 +4,7 @@
   "port": 19999,
   "available": true,
   "exposable": true,
-  "id": "dashdot",
+  "id": "netdata",
   "tipi_version": 1,
   "version": "1.42.1",
   "categories": [
