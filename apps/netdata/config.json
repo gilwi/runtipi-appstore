@@ -1,7 +1,7 @@
 {
   "$schema": "../schema.json",
   "name": "Netdata",
-  "port": 19999,
+  "port": 8299,
   "available": true,
   "exposable": true,
   "id": "netdata",
