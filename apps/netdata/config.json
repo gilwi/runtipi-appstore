@@ -1,0 +1,19 @@
+{
+  "$schema": "../schema.json",
+  "name": "Netdata",
+  "port": 19999,
+  "available": true,
+  "exposable": true,
+  "id": "dashdot",
+  "tipi_version": 1,
+  "version": "1.42.1",
+  "categories": [
+    "utilities"
+  ],
+  "description": "Netdata collects metrics per second and presents them in beautiful low-latency dashboards. It is designed to run on all of your physical and virtual servers, cloud deployments, Kubernetes clusters, and edge/IoT devices, to monitor your systems, containers, and applications.",
+  "short_desc": "Monitor your servers, containers, and applications, in high-resolution and in real-time.",
+  "author": "https://github.com/netdata/netdata",
+  "source": "https://github.com/netdata/netdata",
+  "website": "https://www.netdata.cloud/",
+  "form_fields": []
+}
