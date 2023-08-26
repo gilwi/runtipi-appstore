@@ -4,6 +4,8 @@ services:
     image: netdata/netdata
     container_name: netdata
     pid: host
+    ports:
+      - ${APP_PORT}:19999
     network_mode: host
     restart: unless-stopped
     cap_add:
