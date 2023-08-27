@@ -28,7 +28,7 @@ services:
       # Main
       traefik.enable: true
       traefik.http.middlewares.netdata-web-redirect.redirectscheme.scheme: https
-      traefik.http.services.netdata.loadbalancer.server.port: 9000
+      traefik.http.services.netdata.loadbalancer.server.port: 19999
       # Web
       traefik.http.routers.netdata-insecure.rule: Host(`${APP_DOMAIN}`)
       traefik.http.routers.netdata-insecure.entrypoints: web
