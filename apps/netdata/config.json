@@ -15,5 +15,22 @@
   "author": "https://github.com/netdata/netdata",
   "source": "https://github.com/netdata/netdata",
   "website": "https://www.netdata.cloud/",
-  "form_fields": []
+  "form_fields": [
+    {
+      "type": "text",
+      "label": "Username",
+      "max": 50,
+      "min": 3,
+      "required": true,
+      "env_variable": "NETDATA_BASIC_AUTH_USER"
+    },
+    {
+      "type": "password",
+      "label": "Password",
+      "max": 50,
+      "min": 3,
+      "required": true,
+      "env_variable": "NETDATA_BASIC_AUTH_PASSWORD"
+    }
+  ]
 }
