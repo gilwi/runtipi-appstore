@@ -32,7 +32,7 @@ services:
       traefik.http.middlewares.netdata-forwarded-headers.headers.customrequestheaders.X-Forwarded-Proto: "https"
       traefik.http.middlewares.netdata-forwarded-headers.headers.customrequestheaders.X-Forwarded-Host: "$host"
       traefik.http.middlewares.netdata-forwarded-headers.headers.customrequestheaders.X-Forwarded-Server: "$host"
-      traefik.http.routers.whoami.middlewares: auth
+      traefik.http.routers.netdata.middlewares: auth
       traefik.http.middlewares.auth.basicauth.users: "$NETDATA_BASIC_AUTH_USER:$NETDATA_BASIC_AUTH_PASSWORD"
       traefik.http.services.netdata.loadbalancer.server.port: 19999
       # Web
