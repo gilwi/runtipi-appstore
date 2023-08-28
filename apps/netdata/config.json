@@ -27,7 +27,7 @@
     {
       "type": "password",
       "label": "Password",
-      "max": 50,
+      "max": 150,
       "min": 3,
       "required": true,
       "env_variable": "NETDATA_BASIC_AUTH_PASSWORD"
